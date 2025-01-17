@@ -530,9 +530,9 @@ width: 100%;
 .form_btn{
     display: flex;
     flex-direction: row;
-    gap: 16px;
     text-align: center;
     justify-content: center;
+    align-items: center;
     font-weight: 500;
     letter-spacing: 0.04em;
     border: none;
@@ -550,6 +550,7 @@ width: 100%;
 }
 
 .icon_footer{
+    margin-left: 16px;
     fill: #ffff;
 }
 
@@ -632,6 +633,9 @@ width: 100%;
 .form_line{
     margin-bottom: 8px;
 }
+.form_line_last{
+    margin-bottom: 16px;
+}
 .form_line_title{
     display: block;
     font-size: 12px;
@@ -672,7 +676,7 @@ width: 100%;
     resize: none;
     height: 120px;
     padding: 8px 16px;
-    margin-bottom: 16px;
+    color: rgba(46, 47, 66, 0.4);
 }
 .input::placeholder{
     font-weight: 400;
