@@ -615,6 +615,7 @@ width: 100%;
 }
 .modal_btn:hover,
 .modal_btn:focus{
+    border: none;
     background-color: #404BBF;
     fill: #fff;
 }
@@ -655,16 +656,21 @@ width: 100%;
     background-color: transparent;
     outline: transparent;
     border-radius: 4px;
-    outline: none;
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
+    /* line-height: 2;
+    height: 40px; */
     letter-spacing: 0.04em;
     line-height: 1.17; 
     width: 100%;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.input:not(:last-child){
+    height: 40px;
+}
 .input:last-child{
+    resize: none;
+    height: 120px;
     padding: 8px 16px;
     margin-bottom: 16px;
 }
