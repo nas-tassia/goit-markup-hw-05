@@ -444,7 +444,7 @@
             </div>
         </div>
     </footer>
-    <div class=" modal_container">
+    <div class="is-open modal_container">
         <div class="modal">
             <button class="modal_btn" type="button">
                 <svg class="modal_btn_icone" width="8" height="8">
@@ -494,9 +494,14 @@
                    
                 </div>
                 <div class="form_policy">
-                    <input type="checkbox" name="user-privacy" class="check_box" id="user-privacy" value="true">
+                    <input type="checkbox" name="user-privacy" class="check_box visually-hidden" id="user-privacy" value="true">
                     <label class="check_box_text" for="user-privacy">
-                        I accept the terms and conditions of the <a href="" class="text_link">Privacy Policy</a>
+                        <span class="new_checkbox">
+                            <svg class="checkbox_icone" width="10" height="8">
+                                <use href="./images/icon.svg#icon-check-mark"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the&nbsp;<a href="" class="text_link">Privacy Policy</a>
                     </label>
                 </div>
                 <button class="form_button" type="submit">Send</button>
