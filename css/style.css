@@ -673,6 +673,7 @@ width: 100%;
     resize: none;
     height: 120px;
     padding: 8px 16px;
+    color: rgba(46, 47, 66, 0.4); 
 }
 
 .input::placeholder{
