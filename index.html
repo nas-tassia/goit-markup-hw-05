@@ -458,7 +458,7 @@
                         Name
                     </label>
                     <div class="input_container">
-                        <input type="text" class="input" id="user-name" name="user-name"/>
+                        <input type="text" class="input" id="user-name" name="user-name" maxlength="10" pattern="[A-Za-z0-9]{6,}"/>
                         <svg class="input_icone" width="18" height="24">
                             <use href="./images/icon.svg#icon-person"></use>
                         </svg>
@@ -480,7 +480,7 @@
                         Email
                     </label>
                     <div class="input_container">
-                        <input type="email" class="input" id="user-email" name="user-email"/>
+                        <input type="email" class="input" id="user-email" name="user-email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"/>
                         <svg class="input_icone" width="18" height="24">
                             <use href="./images/icon.svg#icon-letter"></use>
                         </svg>
